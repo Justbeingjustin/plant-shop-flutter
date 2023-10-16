@@ -36,7 +36,7 @@ class _LoadingState extends State<Loading> with TickerProviderStateMixin {
           children: [
             Lottie.asset(
               'assets/plant.json', // Replace with your Lottie animation file path
-              width: 300,
+              width: 350,
               height: 200,
             ),
             ScaleTransition(

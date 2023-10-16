@@ -6,12 +6,15 @@ import 'package:plant_shop/intro/intro_column.dart';
 import 'package:plant_shop/intro/intro_skip_button.dart';
 import 'package:plant_shop/main.dart';
 import 'package:lottie/lottie.dart';
+import 'package:plant_shop/services/plant_service.dart';
 import 'package:plant_shop/shared/loading.dart';
 
 class IntroPage extends StatefulWidget {
-  const IntroPage({Key? key, required this.title}) : super(key: key);
+  const IntroPage({Key? key, required this.title, required this.plantService})
+      : super(key: key);
 
   final String title;
+  final PlantService plantService;
 
   @override
   _IntroPageState createState() => _IntroPageState();
@@ -61,12 +64,14 @@ class _IntroPageState extends State<IntroPage> {
       ),
     );
 
-    // Delay for 3 seconds before navigating to SecondPage
+    // Delay for 3 seconds, which simulates a call to an API.
+
     Future.delayed(Duration(seconds: 3), () {
       Navigator.of(context).pushReplacement(
         MaterialPageRoute(
-          builder: (context) =>
-              SecondPage(), // Replace with the page you want to navigate to
+          builder: (context) => Home(
+              plants: widget.plantService
+                  .getPlants()), // Replace with the page you want to navigate to
         ),
       );
     });

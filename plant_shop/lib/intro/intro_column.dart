@@ -18,22 +18,24 @@ class IntroColumn extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Column(
-      mainAxisAlignment: MainAxisAlignment.start,
-      crossAxisAlignment: CrossAxisAlignment.center,
-      children: [
-        const SizedBox(height: 100),
-        IntroCarousel(controller: controller),
-        const SizedBox(height: 10),
-        IntroCarouselIndicator(currentPage: currentPage),
-        const SizedBox(height: 20),
-        const SizedBox(height: 30),
-        const RichTextWidget(),
-        const SizedBox(height: 60),
-        IntroNavigateButton(
-          onNavigatePressed: onNavigatePressed, // Call the callback here
-        ),
-      ],
+    return SingleChildScrollView(
+      child: Column(
+        mainAxisAlignment: MainAxisAlignment.start,
+        crossAxisAlignment: CrossAxisAlignment.center,
+        children: [
+          const SizedBox(height: 100),
+          IntroCarousel(controller: controller),
+          const SizedBox(height: 10),
+          IntroCarouselIndicator(currentPage: currentPage),
+          const SizedBox(height: 20),
+          const SizedBox(height: 30),
+          const RichTextWidget(),
+          const SizedBox(height: 60),
+          IntroNavigateButton(
+            onNavigatePressed: onNavigatePressed, // Call the callback here
+          ),
+        ],
+      ),
     );
   }
 }
