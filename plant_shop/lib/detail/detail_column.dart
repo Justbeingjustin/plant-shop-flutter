@@ -20,7 +20,8 @@ class DetailColumn extends StatelessWidget {
     return SingleChildScrollView(
       child: Column(
         mainAxisAlignment: MainAxisAlignment.start,
-        crossAxisAlignment: CrossAxisAlignment.center,
+        crossAxisAlignment:
+            CrossAxisAlignment.start, // Change to CrossAxisAlignment.start
         children: [
           Stack(
             children: [
@@ -29,15 +30,36 @@ class DetailColumn extends StatelessWidget {
                 bottom: 10,
                 right: 30,
                 child: Padding(
-                  // Added Padding widget
-                  padding: const EdgeInsets.symmetric(
-                      horizontal: 20), // Added horizontal padding
+                  padding: const EdgeInsets.symmetric(horizontal: 20),
                   child: DetailCarouselIndicator(currentPage: currentPage),
                 ),
               ),
             ],
           ),
           const SizedBox(height: 20),
+          Padding(
+            padding: const EdgeInsets.symmetric(horizontal: 20),
+            child: Text(
+              plant.name,
+              style: TextStyle(
+                fontSize: 24,
+                fontWeight: FontWeight.bold,
+              ),
+            ),
+          ),
+          const SizedBox(height: 20),
+          // Display Plant Long Description
+          Padding(
+            padding: const EdgeInsets.symmetric(horizontal: 20),
+            child: Text(
+              plant.longDescription,
+              textAlign: TextAlign.left, // Align text to the left
+              style: TextStyle(
+                fontSize: 16,
+                color: Colors.grey,
+              ),
+            ),
+          ),
           const SizedBox(height: 30),
         ],
       ),

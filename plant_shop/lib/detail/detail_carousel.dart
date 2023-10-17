@@ -34,9 +34,13 @@ class DetailCarousel extends StatelessWidget {
       child: Hero(
         // Wrap the Image widget with Hero
         tag: heroTag, // Unique tag for this Hero
-        child: Image(
-          image: assetImage,
-          fit: BoxFit.cover,
+        child: ClipRRect(
+          borderRadius:
+              BorderRadius.circular(12.0), // Adjust the radius as needed
+          child: Image(
+            image: assetImage,
+            fit: BoxFit.cover,
+          ),
         ),
       ),
     );
