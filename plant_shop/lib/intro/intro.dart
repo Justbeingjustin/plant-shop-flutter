@@ -80,6 +80,7 @@ class _IntroPageState extends State<IntroPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Color(0xFFFFFFFF),
       body: AnimatedOpacity(
         opacity: _opacity,
         duration: Duration(seconds: 1),
@@ -90,7 +91,7 @@ class _IntroPageState extends State<IntroPage> {
               end: Alignment.bottomCenter,
               colors: [
                 Color(0xFFFFFFFF),
-                Color(0xFFF5F5F5)
+                Color(0xFFFFFFFF),
               ], // Two shades of white
             ),
           ),
