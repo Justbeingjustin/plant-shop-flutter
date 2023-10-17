@@ -21,8 +21,8 @@ class HomeGridView extends StatelessWidget {
         itemBuilder: (BuildContext context, int index) {
           double screenHeight = MediaQuery.of(context).size.height;
           double calculatedHeight = index == 0
-              ? screenHeight * 0.15
-              : screenHeight * 0.3; // 10% and 20% of screen height
+              ? screenHeight * 0.2
+              : screenHeight * 0.4; // 10% and 20% of screen height
           if (index == 0) {
             return Container(
                 height: calculatedHeight,
