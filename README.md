@@ -2,7 +2,10 @@
 
 This project is part of a coding challenge hosted by the heyFlutter [YouTube](https://www.youtube.com/@HeyFlutter) channel. The goal is to recreate the user interface featured in a dribble design, which you can view [here](https://dribbble.com/shots/16340862-Plants-Shop-App-UI). It's important to note that the challenge supplied only a single design image, leaving it to me to bring the concept to life. The image below serves as the exclusive resource provided for this challenge.
 
-![image](https://github.com/Justbeingjustin/plant-shop-flutter/assets/6186274/2d8c90ed-afaa-452a-9470-0a9c68459ce9)
+![image](https://github.com/Justbeingjustin/plant-shop-flutter/assets/6186274/9711d6b3-7701-4dae-a6a8-fd8ec82db877)
+
+
+
 
 
 ## Getting Started
