@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:plant_shop/detail/detail_profile_icon.dart';
 import 'package:plant_shop/home/home_back_button.dart';
-import 'package:plant_shop/home/home_profile_icon.dart';
 
 class DetailAppBar extends StatelessWidget {
   final String title;
@@ -38,7 +38,7 @@ class DetailAppBar extends StatelessWidget {
               onTap: onBackTap,
             ),
           if (onActionTap != null)
-            HomeProfileIcon(
+            DetailProfileIcon(
               onTap: onActionTap,
             ),
         ],

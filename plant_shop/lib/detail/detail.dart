@@ -54,8 +54,8 @@ class _DetailState extends State<Detail> {
         decoration: BoxDecoration(
           color: Color(0xFF77994A),
           borderRadius: BorderRadius.only(
-            topLeft: Radius.circular(20),
-            topRight: Radius.circular(20),
+            topLeft: Radius.circular(50),
+            topRight: Radius.circular(50),
           ),
         ),
         child: Column(
@@ -77,12 +77,13 @@ class _DetailState extends State<Detail> {
                       'Height',
                       style: TextStyle(
                         fontFamily: 'Poppins',
+                        fontWeight: FontWeight.bold,
                         color: Colors.white,
                         fontSize: 12, // Smaller font size
                       ),
                     ),
                     Text(
-                      '30 cm - 40 cm',
+                      '${widget.plant.minHeight} cm - ${widget.plant.maxHeight} cm',
                       style: TextStyle(
                         fontFamily: 'Poppins',
                         color: Colors.white,
@@ -103,12 +104,13 @@ class _DetailState extends State<Detail> {
                       'Temperature',
                       style: TextStyle(
                         fontFamily: 'Poppins',
+                        fontWeight: FontWeight.bold,
                         color: Colors.white,
                         fontSize: 12, // Smaller font size
                       ),
                     ),
                     Text(
-                      '20°C - 25°C',
+                      '${widget.plant.minTemp}°C - ${widget.plant.maxTemp}°C',
                       style: TextStyle(
                         fontFamily: 'Poppins',
                         color: Colors.white,
@@ -129,12 +131,13 @@ class _DetailState extends State<Detail> {
                       'Pot',
                       style: TextStyle(
                         fontFamily: 'Poppins',
+                        fontWeight: FontWeight.bold,
                         color: Colors.white,
                         fontSize: 12, // Smaller font size
                       ),
                     ),
                     Text(
-                      'Ceramic',
+                      widget.plant.potType,
                       style: TextStyle(
                         fontFamily: 'Poppins',
                         color: Colors.white,
@@ -145,29 +148,76 @@ class _DetailState extends State<Detail> {
                 ),
               ],
             ),
-            // Second row with price and Add to Cart button
             Row(
-              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+              // Use Row
               children: [
-                Text(
-                  'Total Price: \$100', // Replace with actual price
-                  style: TextStyle(
-                    color: Colors.white,
-                    fontSize: 24,
+                Expanded(
+                  child: Column(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    crossAxisAlignment:
+                        CrossAxisAlignment.start, // Keep the alignment
+                    children: [
+                      Padding(
+                        // Added Padding
+                        padding:
+                            const EdgeInsets.only(left: 40.0), // Left padding
+                        child: Text(
+                          'Total Price',
+                          style: TextStyle(
+                            fontFamily: 'Poppins',
+                            fontWeight: FontWeight.bold,
+                            color: Colors.white,
+                            fontSize: 16,
+                          ),
+                        ),
+                      ),
+                      Padding(
+                        // Added Padding
+                        padding:
+                            const EdgeInsets.only(left: 40.0), // Left padding
+                        child: Text(
+                          '\$${widget.plant.price} ', // Replace with actual price
+                          style: TextStyle(
+                            fontFamily: 'Poppins',
+                            fontWeight: FontWeight.bold,
+                            color: Colors.white,
+                            fontSize: 16,
+                          ),
+                        ),
+                      ),
+                    ],
                   ),
                 ),
-                ElevatedButton(
-                  onPressed: () {
-                    // Add to Cart logic
-                  },
-                  child: Text('Add to Cart'),
-                  style: ElevatedButton.styleFrom(
-                    primary: Colors.white,
-                    onPrimary: Colors.black,
+                Padding(
+                  // Added right Padding
+                  padding: const EdgeInsets.only(right: 20.0), // Right padding
+                  child: ElevatedButton(
+                    onPressed: () {
+                      // Add to Cart logic
+                    },
+                    child: Text(
+                      'Add to Cart',
+                      style: TextStyle(
+                        fontWeight: FontWeight.bold,
+                        color: Colors.white,
+                        fontSize: 16, // Make text larger
+                      ),
+                    ),
+                    style: ElevatedButton.styleFrom(
+                      primary: Color(0xFF67864a),
+                      onPrimary: Colors.white,
+                      minimumSize: Size(170, 80), // Set the minimum size
+                      shape: RoundedRectangleBorder(
+                        // Add this line
+                        borderRadius:
+                            BorderRadius.circular(20.0), // Add this line
+                      ),
+                    ),
                   ),
                 ),
               ],
             ),
+            // Second row with price and Add to Cart button
           ],
         ),
       ),
