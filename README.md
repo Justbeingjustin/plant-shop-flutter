@@ -34,7 +34,7 @@ Run the project
 flutter run
 ```
 
-## Screenshots of My Final App
+## Screenshots of App
 
 <img src="https://github.com/Justbeingjustin/plant-shop-flutter/assets/6186274/a3a86248-e7e8-43bb-929f-be4e56740dfc" alt="Design preview" width="300" height="630"/>
 <img src="https://github.com/Justbeingjustin/plant-shop-flutter/assets/6186274/d249598c-c4e7-4e20-9b30-a9d4522b65b8" alt="Design preview" width="300" height="630"/>
