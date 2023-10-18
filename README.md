@@ -39,9 +39,10 @@ flutter run
 
 ## Screenshots of App
 
-<img src="https://github.com/Justbeingjustin/plant-shop-flutter/assets/6186274/a3a86248-e7e8-43bb-929f-be4e56740dfc" alt="Design preview" width="300" height="630"/>
+<img src="https://github.com/Justbeingjustin/plant-shop-flutter/assets/6186274/7b7d6768-0d6a-4127-aa20-f4ac5730baf2" alt="Design preview" width="300" height="630"/>
 <img src="https://github.com/Justbeingjustin/plant-shop-flutter/assets/6186274/5b13f763-cd40-4d8e-bb18-83854139e142" alt="Design preview" width="300" height="630"/>
 <img src="https://github.com/Justbeingjustin/plant-shop-flutter/assets/6186274/afc0094a-f4eb-43e0-b512-a801b0762f18" alt="Design preview" width="300" height="630"/>
+
 
 
 
