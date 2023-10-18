@@ -48,11 +48,11 @@ flutter run
 ## Features
 
 ### Horizontal Carousel
-<img src="https://github.com/Justbeingjustin/plant-shop-flutter/assets/6186274/a44c819f-2c8f-48d1-b760-f1689f1bb237"/>
+<img src="https://github.com/Justbeingjustin/plant-shop-flutter/assets/6186274/a44c819f-2c8f-48d1-b760-f1689f1bb237" width="300" height="400"/>
 
 
 ### Vertical Carousel
-<img src="https://github.com/Justbeingjustin/plant-shop-flutter/assets/6186274/f4b0718d-bf48-4c1a-a88a-d8ee42d9a1e3" alt="Carousel"/>
+<img src="https://github.com/Justbeingjustin/plant-shop-flutter/assets/6186274/f4b0718d-bf48-4c1a-a88a-d8ee42d9a1e3" alt="Carousel" width="300" height="400" />
 
 ### Loading Screen
 <img src="https://github.com/Justbeingjustin/plant-shop-flutter/assets/6186274/6193113d-40df-4a1e-bc2c-7ea8cdd02118" alt="Carousel" width="300" height="630" />
