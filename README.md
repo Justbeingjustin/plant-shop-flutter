@@ -55,14 +55,14 @@ flutter run
 <img src="https://github.com/Justbeingjustin/plant-shop-flutter/assets/6186274/f4b0718d-bf48-4c1a-a88a-d8ee42d9a1e3" alt="Carousel"/>
 
 ### Loading Screen
-<img src="https://github.com/Justbeingjustin/plant-shop-flutter/assets/6186274/6193113d-40df-4a1e-bc2c-7ea8cdd02118" alt="Carousel" />
+<img src="https://github.com/Justbeingjustin/plant-shop-flutter/assets/6186274/6193113d-40df-4a1e-bc2c-7ea8cdd02118" alt="Carousel" width="300" height="630" />
 
 
 ### Staggered Gridview
-<img src="https://github.com/Justbeingjustin/plant-shop-flutter/assets/6186274/48aaa8f2-a742-462c-bfb6-58be62dfeebc" alt="Carousel" />
+<img src="https://github.com/Justbeingjustin/plant-shop-flutter/assets/6186274/48aaa8f2-a742-462c-bfb6-58be62dfeebc" alt="Carousel" width="300" height="630" />
 
 ### Hero Animation
-<img src="https://github.com/Justbeingjustin/plant-shop-flutter/assets/6186274/43839d76-20e1-45b8-8383-84aac1541934" alt="Carousel"  />
+<img src="https://github.com/Justbeingjustin/plant-shop-flutter/assets/6186274/43839d76-20e1-45b8-8383-84aac1541934" alt="Carousel" width="300" height="630"  />
 
 
 
