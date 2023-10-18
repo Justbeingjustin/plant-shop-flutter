@@ -1,6 +1,6 @@
 # plant-shop-flutter
 
-his project is part of a coding challenge sponsored by the heyFlutter YouTube channel. The objective is to replicate the user interface showcased in a Dribbble design, which you can view [here](https://dribbble.com/shots/16340862-Plants-Shop-App-UI). It's worth mentioning that the challenge provided only a single image of the design, featuring three distinct pages. The image below represents the sole material given for this challenge.
+This project is part of a coding challenge sponsored by the heyFlutter YouTube channel. The objective is to replicate the user interface showcased in a Dribbble design, which you can view [here](https://dribbble.com/shots/16340862-Plants-Shop-App-UI). It's worth mentioning that the challenge provided only a single image of the design, featuring three distinct pages. The image below represents the sole material given for this challenge.
 
 ![image](https://github.com/Justbeingjustin/plant-shop-flutter/assets/6186274/2d8c90ed-afaa-452a-9470-0a9c68459ce9)
 
