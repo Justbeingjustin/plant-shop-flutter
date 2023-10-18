@@ -55,6 +55,9 @@ flutter run
 ### Horizontal Carousel
 <img src="https://github.com/Justbeingjustin/plant-shop-flutter/assets/6186274/a44c819f-2c8f-48d1-b760-f1689f1bb237"/>
 
+<img src="https://github.com/Justbeingjustin/plant-shop-flutter/assets/6186274/a44c819f-2c8f-48d1-b760-f1689f1bb237" style="margin-left: auto; margin-right: auto; display: block;"/>
+
+
 ### Vertical Carousel
 <img src="https://github.com/Justbeingjustin/plant-shop-flutter/assets/6186274/5bff9362-905c-4dc9-a2c2-325f8219f683" alt="Carousel" width="300" height="300"/>
 
