@@ -1,10 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:lottie/lottie.dart';
 import 'package:plant_shop/detail/detail_app_bar.dart';
 import 'package:plant_shop/detail/detail_bottom_navigation_bar.dart';
 import 'package:plant_shop/detail/detail_column.dart';
-import 'package:plant_shop/intro/intro_carousel_indicator.dart';
-import 'package:plant_shop/intro/intro_column.dart';
 import 'package:plant_shop/models/plant.dart';
 
 class Detail extends StatefulWidget {

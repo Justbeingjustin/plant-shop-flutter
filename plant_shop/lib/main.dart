@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:lottie/lottie.dart';
 import 'package:plant_shop/intro/intro.dart';
 import 'package:plant_shop/services/plant_service.dart';
 

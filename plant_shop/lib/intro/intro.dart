@@ -4,8 +4,6 @@ import 'package:flutter/material.dart';
 import 'package:plant_shop/home/home.dart';
 import 'package:plant_shop/intro/intro_column.dart';
 import 'package:plant_shop/intro/intro_skip_button.dart';
-import 'package:plant_shop/main.dart';
-import 'package:lottie/lottie.dart';
 import 'package:plant_shop/services/plant_service.dart';
 import 'package:plant_shop/shared/loading.dart';
 

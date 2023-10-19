@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:plant_shop/detail/detail_bottom_navigation_bar%20copy.dart';
+import 'package:plant_shop/detail/detail_price_and_cart_row.dart';
 import 'package:plant_shop/detail/detail_info_row.dart';
 import 'package:plant_shop/models/plant.dart';
 

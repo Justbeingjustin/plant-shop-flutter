@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:plant_shop/detail/detail.dart';
 import 'package:plant_shop/home/home_app_bar.dart';
-import 'package:plant_shop/home/home_search_and_filter_row.dart';
 import 'package:plant_shop/home/plant_card.dart';
 import 'package:plant_shop/models/plant.dart';
 import 'package:flutter_staggered_grid_view/flutter_staggered_grid_view.dart';

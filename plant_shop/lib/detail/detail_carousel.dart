@@ -1,9 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:plant_shop/models/plant.dart';
 
-import 'package:flutter/material.dart';
-import 'package:plant_shop/models/plant.dart';
-
 class DetailCarousel extends StatelessWidget {
   final PageController controller;
   final Plant plant; // New parameter to accept a single Plant object

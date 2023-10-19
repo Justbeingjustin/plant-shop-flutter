@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:plant_shop/models/plant.dart';
 
 class DetailInfoColumn extends StatelessWidget {
   final String imageAsset;

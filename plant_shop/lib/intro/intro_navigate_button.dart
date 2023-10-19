@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:plant_shop/home/home.dart';
-import 'package:plant_shop/main.dart';
 
 class IntroNavigateButton extends StatelessWidget {
   final VoidCallback? onNavigatePressed;

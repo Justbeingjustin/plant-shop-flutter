@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:plant_shop/intro/intro_carousel.dart';
-import 'package:plant_shop/intro/intro_carousel_indicator.dart';
 
 class DetailCarouselIndicator extends StatelessWidget {
   final int currentPage;
